@@ -1,0 +1,406 @@
+
+/*home page*/
+
+#body{
+    background-image: url("Florence-Italy-10.jpg");
+    max-width:  100%;
+    height: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+
+
+#heading{
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    background-size: 20% 40%;
+    text-shadow: 4px 4px black;
+    padding: 4px;
+    text-align: center;
+    padding-top: 100px;
+  
+}
+.navbar {
+    list-style: none;
+    background-color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+        }
+
+.navbar li{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+
+    display: inline;
+    padding-right: 80px;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar a:hover{
+    font-weight: bold;
+    transition: .3s;
+}
+
+.navbar a.active{
+   text-decoration: none;
+}
+
+
+  .nav li {
+    width: 100%;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+    .navbar li{
+        display: inline-block;}
+        
+
+
+
+
+
+/*Florence page*/
+
+#FLO{
+    background-image: url("duomo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#Florence{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 70px;
+    margin-left: 40px;
+    padding-top: 35px;
+    color: lightpink;
+    text-shadow: 4px 4px black;
+    width: 100%;
+    height: auto;
+    
+
+}
+
+  .boxed{
+        border: 1px solid pink;
+        background-color: pink;
+        font-family: 'Merriweather Sans', sans-serif;
+        max-width: 100%;
+        width: 480px;
+        height: 25px;
+        align-content: center;
+        margin-top: 0;
+      
+}
+
+#Me{
+    max-width: 100%;
+    width: 500px;
+    height: 650px;
+    opacity: .8;
+    position: absolute;
+    top: 150px; 
+    right: 0;
+    background-color: pink;
+}
+
+#panel, #flip {
+    max-width: 100%;
+    padding: 2px;
+    text-align: left;
+    background-color: paleturquoise;
+    border: solid 1px #c3c3c3;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 50px;
+    max-width: 100%;
+    width: 400px;
+   
+}
+
+#panel{
+    padding: 50px;
+    display: none;
+    width: 400px;
+}
+
+/*Barcelona Page*/
+
+#BARCA{
+    background-image: url(barcelona.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#Barcelona{
+    max-width: 100%;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 70px;
+    color: gold;
+    text-shadow: 4px 4px black;
+    margin-left: 420px;
+    padding-top: 35px;
+    
+    
+}
+    
+    #block{
+        color: white;
+    }
+    
+    
+.container {
+  position: relative;
+  width: 20%;
+padding: 4px;
+    top: 0;
+
+}
+
+#claire {
+  display: block;
+  width: 100%;
+  height: auto;
+    
+    
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: navy;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;'
+}
+     
+
+ #gaudi {
+  display: block;
+  width: 100%;
+  height: auto;
+    }
+     
+    #brunch{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    #content{
+       width: 500px;
+        margin-left: 500px;
+        background-color: lightgreen;
+        padding: 2%;
+        font-family: 'Merriweather Sans', sans-serif;'
+        width: 100%;
+        height: auto;
+        display: none;
+        
+    }
+    
+    
+
+    
+    button{
+        background-color: lightgreen;
+        font-family: 'Merriweather Sans', 'sans-serif';
+        font-size: 18px;
+        
+        
+    }
+
+    
+/*Interlaken*/
+    
+    #INTERLAKEN{
+        
+    background-image: url("inter.jpeg");
+        max-width: 100%;
+        height: auto;
+        background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    #title{
+        color: lightgreen;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 80px;
+        background-size: 20% 40%;
+        text-shadow: 4px 4px black;
+        padding: 4px;
+        text-align: center;
+        padding-top: 0;
+    }
+    
+
+    
+    
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 40%;
+  position: relative;
+  margin: auto;
+   margin-top: 10%;
+    margin-left: 50px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+    max-width: 100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    position: absolute;
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+    
+   
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+ 
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 50;
+}
+
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+/*Como*/
+
+
+#COMO{
+    background-image: url("como.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+#LakeComo{
+    color: salmon;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 80px;
+        background-size: 20% 40%;
+        text-shadow: 4px 4px black;
+        padding: 4px;
+        text-align: center;
+        padding-top: 0;
+      
+}
+
+
+#wine{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+   opacity: .9;
+    margin-right: 0;
+    
+}
+
+
+    
+    
+    
+   

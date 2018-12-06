@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<head>
+    <title> IMS257 Final Project </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+   
+  
+    </head>
+
+
+
+    
+  <script>
+  $( function() {
+    // run the currently selected effect
+    function runEffect() {
+      // get effect type from
+      var selectedEffect = $( "#effectTypes" ).val();
+ 
+      // Most effect types need no options passed by default
+      var options = {};
+      // some effects have required parameters
+      if ( selectedEffect === "scale" ) {
+        options = { percent: 50 };
+      } else if ( selectedEffect === "size" ) {
+        options = { to: { width: 280, height: 185 } };
+      }
+ 
+      // Run the effect
+      $( "#effect" ).show( selectedEffect, options, 500, callback );
+    };
+ 
+    //callback function to bring a hidden box back
+    function callback() {
+      setTimeout(function() {
+        $( "#effect:visible" ).removeAttr( "style" ).fadeOut();
+      }, 1000 );
+    };
+      
+   $(document).ready(function () {
+    $("button").click(function () {
+        $("#content").toggle();
+    });
+});
+   
+  });
+
+  </script>
+</head>  
+    
+    
+<body id="BARCA">
+    
+    
+<header>
+    
+    <div class="navbar">
+                
+                 <ul>
+            
+                    <li><a href="home.html">Home</a></li>
+                   <li><a href="Florence.html">Florence</a></li>
+                   <li> <a class="active" href="#barcelona">Barcelona</a></li>
+                   <li><a href="Interlaken.html">Interlaken</a></li>
+                  <li><a href="Como.html">Lake Como</a></li>
+            </ul>
+        </div>
+    </header>
+  
+    
+<h1 id="Barcelona">Barcelona</h1>
+    
+ 
+
+
+<div id="content"> I took a 14 hour bus ride from Florence to Barcelona. It was a long and horrible ride, but it was so worth it. Barcelona is a beautiful city in Spain located right on the Mediteranian Sea. <p>In Barcelona, I stayed in a Hostel... the first hostle I've ever been to. Hostle's are an easy way to travel to different cities and save money because they are cheap and easy to book. I spent my time in Barcelona looking at the amazing artwork of Gaudi, eating delicious tapas, and getting a taste of the wild night life. </p></div>
+    
+    
+    <button>Click here to learn about my experience in Barcelona!</button>
+    
+  
+ 
+    
+    
+
+    
+    
+<div class="container">
+  <img src="claire.jpeg"  id="claire">
+  <div class="overlay">
+    <div class="text">Jessica and Claire enjoying a beautiful day in Barcelona</div>
+  </div>
+</div>
+    
+    
+<div class="container">
+  <img src="gaudi.jpeg" id="gaudi">
+    <div class="overlay">
+    <div class="text">A Gaudi design on the popular Barcelona street, Las Ramblas</div>
+    
+    </div>
+    </div>
+   
+<div class="container">
+  <img src="brunch.jpeg" id="brunch">
+    <div class="overlay">
+    <div class="text">A delicious brunch at Barcelona's famous Brunch and Cake restaurant</div>
+  
+    
+
+
+    <
+
+        
+        
+
+
+    
